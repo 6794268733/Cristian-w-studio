@@ -40,7 +40,7 @@ export default function VcVacacionesPage() {
 
       {/* FOOTER CON TU FIRMA */}
       <footer className="bg-[#0f261d] text-white py-10 border-t border-[#1b4332] text-center">
-        <p className="text-[#8AB8C4] text-sm tracking-[2px]">Hecho con ❤️ por <strong>CRISTIAN W STUDIO</strong></p>
+        <p className="text-[#8AB8C4] text-sm tracking-[2px]">Hecho por <strong>CRISTIAN W STUDIO</strong></p>
         <p className="text-white/40 text-xs mt-2">Desarrollo web en Puerto Iguazú | Sitios modernos y rápidos</p>
       </footer>
     </div>

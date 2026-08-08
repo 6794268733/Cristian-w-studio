@@ -13,21 +13,28 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Cristian W | Studio - Desarrollador Web",
-  description: "Desarrollador web especializado en sitios modernos, rápidos y optimizados. +3 años ayudando a negocios en Argentina y LATAM.",
+  title: "Cristian Wrubel | Desarrollador Web en Puerto Iguazú, Misiones",
+  description: "Creo páginas web modernas, rápidas y optimizadas para negocios y emprendedores de Puerto Iguazú, Misiones y toda Argentina.",
+  keywords: ["desarrollador web Puerto Iguazú", "diseñador web Misiones", "creación de páginas web", "Cristian Wrubel"],
+  authors: [{ name: "Cristian Wrubel" }],
+  openGraph: {
+    title: "Cristian Wrubel | Desarrollador Web en Puerto Iguazú",
+    description: "Sitios web profesionales que venden. Desde Puerto Iguazú para toda Argentina.",
+    url: "https://cristian-w-studio.vercel.app",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
-    <html
-      lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
-    >
-      <body className="min-h-full flex flex-col">{children}</body>
+    <html lang="es">
+      <body className={'${geistSans.variable} ${geistMono.variable} antialiased'}>
+        {children}
+      </body>
     </html>
   );
 }

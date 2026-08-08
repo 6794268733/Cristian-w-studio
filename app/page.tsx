@@ -65,7 +65,7 @@ export default function Home() {
             <div className="lg:col-span-7 space-y-6 text-center lg:text-left">
               <span className="inline-flex items-center space-x-2 px-3 py-1.5 rounded-full bg-cyan-950/80 border border-cyan-800/60 text-cyan-400 text-xs font-semibold tracking-wider uppercase">
                 <span className="w-2 h-2 rounded-full bg-cyan-400 animate-pulse"></span>
-                <span>Disponible para nuevos proyectos</span>
+                <span>Disponible para nuevos proyectos ¡Comencemos!</span>
               </span>
               
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-tight text-white">
@@ -76,7 +76,21 @@ export default function Home() {
               </h1>
               
               <p className="text-lg text-gray-400 max-w-2xl mx-auto lg:mx-0 font-light leading-relaxed">
-                Desarrollador web especializado en crear sitios modernos, rápidos y adaptados a las necesidades de cada cliente. Potencia tu presencia digital con la máxima calidad técnica.
+                <h1 className="text-sm md:text-base font-semibold tracking-widest text-cyan-400 uppercase mb-3">
+  Desarrollador Web en Puerto Iguazú, Misiones
+</h1>
+
+<h2 className="text-sm md:text-base font-semibold tracking-widest text-cyan-400 uppercase mb-3">
+  Transformo ideas en <span className="text-cyan-400">soluciones digitales</span>
+</h2>
+
+<p className="mt-4 text-gray-400 max-w-2xl">
+  Soy Cristian Wrubel, creo páginas web modernas, ultra rápidas y que convierten visitantes en clientes. Ayudo a negocios de Puerto Iguazú y toda Argentina a potenciar su presencia digital con un estándar técnico profesional.
+</p>
+
+<h3 className="mt-2 text-white font-medium">
+  Creación de Páginas Web para Negocios y Emprendedores que Quieren Crecer
+</h3>
               </p>
               
               <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-4">
@@ -111,7 +125,7 @@ export default function Home() {
           <div className="text-center max-w-3xl mx-auto mb-16">
             <span className="text-cyan-400 font-semibold tracking-wider uppercase text-sm">¿Qué ofrezco?</span>
             <h2 className="text-3xl sm:text-4xl font-extrabold text-white mt-2">
-              Servicios Especializados a Medida
+              Servicios de desarrollo Web en Misiones: Landing Pages, E-commerce y SEO
             </h2>
           </div>
 
