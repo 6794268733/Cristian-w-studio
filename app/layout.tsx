@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Cristian W | Studio - Desarrollador Web en Resistencia",
+  title: "Cristian W | Studio - Desarrollador Web",
   description: "Desarrollador web especializado en sitios modernos, rápidos y optimizados. +3 años ayudando a negocios en Argentina y LATAM.",
 };
 
