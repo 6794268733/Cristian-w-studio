@@ -221,7 +221,7 @@ export default function Home() {
     </div>
     <div className="grid md:grid-cols-3 gap-8">
       {[
-        { nombre: 'Juan Manel Massoni', empresa: 'Tienda Online', texto: 'Increíble trabajo. Mi tienda vende 3x más desde el rediseño.' },
+        { nombre: 'Juan Manel Massoni', empresa: 'Tienda Online', texto: 'Excelente trabajo. Mi tienda vende 3x más desde el rediseño.' },
         { nombre: 'María Isabel González', empresa: 'Estudio Jurídico', texto: 'Profesional, rápido y siempre disponible. 100% recomendado.' },
         { nombre: 'Carlos  Gabriel López', empresa: 'Startup Tech', texto: 'Entendió perfecto lo que necesitábamos. El mejor dev que contraté.' }
       ].map((testimonio, i) => (
