@@ -78,7 +78,7 @@ export default function App() {
           <div className="relative">
             <div className="rounded-[24px] p-[1px] bg-gradient-to-b from-white/20 to-white/5">
               <div className="rounded-[23px] bg-[#0D0D14] overflow-hidden">
-                <img src="/mate-portada.jpg" className="w-full h-[420px] object-cover opacity-60" alt="Mi escritorio real" />
+                <img src="/portada.jpg" className="w-full h-[420px] object-cover opacity-60" alt="Mi escritorio real" />
                 <div className="absolute bottom-6 left-6 right-6 p-4 rounded-2xl bg-[#050508]/80 backdrop-blur-xl border border-white/10">
                   <div className="flex items-center gap-2 text-[12px] mono text-white/60"><MapPin size={14}/> Puerto Iguazú, Misiones • Trabajo real</div>
                   <div className="mt-2 font-semibold"></div>
