@@ -154,7 +154,7 @@ export default function App() {
 <div className="mt-20 rounded-[28px] border border-white/10 bg-[#0f0f0f] p-7 md:p-10">
   <div className="flex items-center gap-2">
     <span className="w-2 h-2 bg-emerald-400 rounded-full animate-pulse" />
-    <span className="text-[11px] mono text-emerald-400">SERVICIO QUE MÁS VENDE EN IGUAZÚ</span>
+    <span className="text-[11px] mono text-emerald-400">SERVICIO QUE MÁS VENDE</span>
   </div>
 
   <h3 className="text-[24px] md:text-[32px] font-bold mt-3 leading-tight">Optimizo tu Google Maps para que aparezcas 1° y te lluevan clientes</h3>
